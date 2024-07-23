@@ -1,0 +1,68 @@
+name: "Agenda"
+description: "Agenda for a community call"
+title: "[agenda]: "
+labels: ["agenda"]
+assignees:
+  - bguiz
+body:
+  - type: "textarea"
+    id: "meeting-details"
+    validations:
+      required: true
+    attributes:
+      label: "Meeting Details"
+      description: "Details about the meeting"
+      value: |
+        * Date: <!-- TODO [20240626T230000Z](https://www.timeanddate.com/worldclock/converter.html?iso=20240626T230000&p1=1440&p2=137&p3=179&p4=136&p5=37&p6=776&p7=236&p8=240) -->
+        * Stream: <!-- TODO live stream link -->
+  - type: "dropdown"
+    id: "call-category"
+    validations:
+      required: true
+    attributes:
+      label: "What type of call is this?"
+      multiple: false
+      options:
+        - "Technical"
+        - "Non-technical"
+  - type: "textarea"
+    id: "topics"
+    validations:
+      required: true
+    attributes:
+      label: "Topics"
+      description: "Details about the meeting"
+      value: |
+        * HIP-${HIP_NUMBER}: ${HIP_TITLE}
+          * ${HIP_STATUS_PREVIOUS} --> ${HIP_STATUS_NEXT}
+          * ${HIP_PR_LINK}
+        * HIP-${HIP_NUMBER}: ${HIP_TITLE}
+          * ${HIP_STATUS_PREVIOUS} --> ${HIP_STATUS_NEXT}
+          * ${HIP_PR_LINK}
+        * Topic without a HIP 1
+        * Topic without a HIP 2
+  - type: "textarea"
+    id: "todos"
+    validations:
+      required: true
+    attributes:
+      label: "TODOs"
+      description: "Checklist of tasks to complete for the community call"
+      value: |
+        - [ ] Create notes file + update table in main README
+        - [ ] URLs + QR codes for discord/ youtube/ twitter streams
+        - [ ] Tweet storm first post URL + QR code
+        - [ ] Full bio details for each of the speakers
+          - [ ] Name/ nickname
+          - [ ] Company
+          - [ ] Twitter/ LinkedIn/ Website
+          - [ ] Intro bullet points
+        - [ ] Identify dev community members for shout outs
+        - [ ] Prepare slide deck
+        - [ ] Slides for each of the presenters
+        - [ ] Announcement tweets
+        - [ ] Update notes file + update table in main README
+  - type: "markdown"
+    attributes:
+      value: |
+        Thanks for filling out this agenda!
