@@ -47,7 +47,7 @@ For non-technical community calls:
 
 ### Who Facilitates the Meetings
 
-The meetings are facilitated by Swirlds Labs,
+The meetings are facilitated by Hashgraph,
 the entity behind engineering and marketing for Hedera.
 
 For the technical community calls:
@@ -55,8 +55,9 @@ For the technical community calls:
 - [Michael Garber](#TODO_LINK)
 
 For the non-technical community calls:
-- [Mica Cerone](#TODO_LINK)
 - [Oliver Thorne](#TODO_LINK)
+- [Fermín Dietze](#TODO_LINK)
+- [Luis Vega](#TODO_LINK)
 
 TODO livestreaming instructions.
 
@@ -68,3 +69,5 @@ TODO livestreaming instructions.
 | 0001 | [20240626T230000Z](https://www.timeanddate.com/worldclock/converter.html?iso=20240626T230000&p1=1440&p2=137&p3=179&p4=136&p5=37&p6=776&p7=236&p8=240) | Technical | Hedera Tech Community Call, June 2024 | [agenda](https://github.com/hedera-dev/hedera-comm-calls/issues/1) | [notes](notes/0001.md) | [twitter](https://x.com/bguiz/status/1805499401336668589) | [youtube](https://www.youtube.com/watch?v=gYPTrD2sXjM) [twitter](https://x.com/hedera_devs/status/1806100144947097695) |
 | 0002 | [20240731T190000](https://www.timeanddate.com/worldclock/converter.html?iso=20240731T190000&p1=1440&p2=137&p3=179&p4=136&p5=37&p6=776&p7=236&p8=240) | Technical | Hedera Tech Community Call, July 2024 | [agenda](https://github.com/hedera-dev/hedera-comm-calls/issues/2) | [notes](notes/0002.md) | [twitter](https://x.com/bguiz/status/1814119453451571371) | [youtube](https://www.youtube.com/watch?v=CLBTMQSl5LE) |
 | 0003 | [20240911T010000Z](https://www.timeanddate.com/worldclock/converter.html?iso=20240911T010000&p1=1440&p2=137&p3=179&p4=136&p5=37&p6=776&p7=236&p8=240) | Technical | Hedera Tech Community Call, September 2024 | [agenda](https://github.com/hedera-dev/hedera-comm-calls/issues/5) | [notes](notes/0003.md) | [twitter](https://x.com/bguiz/status/1833661895087431979) | [youtube](https://www.youtube.com/watch?v=k6HIMTqS10I) |
+| 0004 | [20250219T160000Z](https://www.timeanddate.com/worldclock/converter.html?iso=20250219T160000Z&p1=1440&p2=137&p3=179&p4=136&p5=37&p6=776&p7=236&p8=240) | Technical | Hedera Tech Community Call, February 2025 | [agenda](https://github.com/hedera-dev/hedera-comm-calls/issues/3) | notes | twitter | [youtube](https://www.youtube.com/live/eca_E_b5KlA) |
+| 0005 | [20250327T160000Z](https://www.timeanddate.com/worldclock/converter.html?iso=20250327T160000Z&p1=1440&p2=137&p3=179&p4=136&p5=37&p6=776&p7=236&p8=240) | Technical | Hedera Tech Community Call, March 2025 | [agenda](https://github.com/hedera-dev/hedera-comm-calls/issues/4) | notes | twitter | youtube |
